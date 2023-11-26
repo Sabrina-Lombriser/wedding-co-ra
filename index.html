@@ -1,0 +1,23 @@
+<html>
+  <body>
+    <link rel=" stylesheet" type="text/css" href="style.css" />
+    <div class="success">
+      Passwort eingeben <input id="password" type="text" />
+
+      <a href="./home.html" onclick="javascript:return validatePass()"
+        ><button class="button-success">Hier klicken</button></a
+      >
+
+      <script>
+        function validatePass() {
+          if (document.getElementById("password").value == "LeaundMarc4524") {
+            return true;
+          } else {
+            alert("wrong password!!");
+            return false;
+          }
+        }
+      </script>
+    </div>
+  </body>
+</html>
