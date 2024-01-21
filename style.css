@@ -5,14 +5,21 @@ body {
   max-width: 1440px;
   background-color: rgb(250, 249, 246);
 }
-/* evt. Header einfügen mit background-size: cover, und height 2527 beim Bild Save the date */
 
-/*rot rgb (138 156 86)
-ocker rgb (138 156 86)
-headings rgb(161, 13, 40, 0.9)
-topheading: rgb(124, 6, 51)
-top-heading grün: rgb(74 70 42)
-rest: rgb (138 156 86)*/
+.enter-password {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 50px;
+}
+.PW-text {
+  text-align: center;
+}
 
 h1 {
   color: rgb(138 156 86);
@@ -119,12 +126,6 @@ p {
   gap: 40px;
 }
 
-/*.column {
-  flex: 1 1 0%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}*/
 .Formular {
   display: flex;
   justify-content: center;
@@ -170,6 +171,18 @@ input[type="text"] {
   color: rgb(63 71 39);
 }
 
+input[type="password"] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 5px;
+  outline: none;
+  margin-top: 20px;
+  box-shadow: rgb(138 156 86 / 57%) 3px 3px;
+  color: rgb(63 71 39);
+}
+
 input[type="email"] {
   width: 100%;
   box-sizing: border-box;
@@ -194,13 +207,16 @@ textarea {
 }
 select {
   width: 100%;
-  padding: 5px;
+  padding: 1px;
+  margin-top: 5px;
   border-radius: 4px;
   outline: none;
   box-shadow: rgb(138 156 86 / 57%) 3px 3px;
   font-family: "Open Sans", sans-serif;
-  font-size: 12px;
+  font-size: 15px;
+  color: rgb(63 71 39);
 }
+
 select:focus {
   color: black;
 }
@@ -480,7 +496,6 @@ label {
   font-family: "Open Sans", sans-serif;
 }
 .success {
-  /*border: 2px solid rgb(138 156 86);*/
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

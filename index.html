@@ -2,8 +2,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Corinne und Rafael</title>
-    <link rel="icon" type="image/png" href="./images/favicon.png"/>
+    <title>Corinne und Rafi</title>
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
       rel="stylesheet"
@@ -13,31 +13,33 @@
   <body>
     <div class="enter-password">
       <label class="PW-text">
-        <div>Passwort eingeben </div><input id="password" type="password" />
+        <div>Passwort eingeben</div>
+        <input id="password" type="password" />
       </label>
-        <a href="./home.html" onclick="javascript:return validatePass()"
-          ><button class="button-success" id="myBtn">Hier klicken</button></a
-        >
-        <script>
-          var input = document.getElementById("password");
-          input.addEventListener("keypress", function (event) {
-            if (event.key === "Enter") {
-              event.preventDefault();
-              document.getElementById("myBtn").click();
-            }
-          });
-        </script>
-        <script>
-          function validatePass() {
-            if (document.getElementById("password").value == "CorinneundRafi1624") {
-              return true;
-            } else {
-              alert("Das Passwort ist leider falsch");
-              return false;
-            }
+      <a href="./home.html" onclick="javascript:return validatePass()"
+        ><button class="button-success" id="myBtn">Hier klicken</button></a
+      >
+      <script>
+        var input = document.getElementById("password");
+        input.addEventListener("keypress", function (event) {
+          if (event.key === "Enter") {
+            event.preventDefault();
+            document.getElementById("myBtn").click();
           }
-        </script>
-      </div>
-    </label>
+        });
+      </script>
+      <script>
+        function validatePass() {
+          if (
+            document.getElementById("password").value == "CorinneundRafi1624"
+          ) {
+            return true;
+          } else {
+            alert("Das Passwort ist leider falsch");
+            return false;
+          }
+        }
+      </script>
+    </div>
   </body>
 </html>
