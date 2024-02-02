@@ -322,6 +322,15 @@ input[type="checkbox"] {
   text-align: center;*/
   padding: 10px;
 }
+.round-image-yves {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  text-align: center;
+  padding: 10px;
+}
 a {
   color: rgba(158, 184, 178, 255);
   text-align: center;
@@ -465,7 +474,7 @@ iframe {
 }
 
 .wunsch-container {
-  max-width: 225px;
+  max-width: 350px;
   display: flex;
   align-content: flex-end;
   flex-wrap: wrap;
@@ -473,7 +482,7 @@ iframe {
 }
 .wunsch-text {
   margin: auto;
-  max-width: 250px;
+  max-width: 350px;
 }
 .Wunschliste {
   display: flex;
@@ -485,7 +494,7 @@ iframe {
 
 .wishlist {
   padding-bottom: 20px;
-  width: 33%;
+  width: 50%;
 }
 footer {
   background-color: rgba(158, 184, 178, 255);
