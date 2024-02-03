@@ -447,6 +447,7 @@ li {
   align-items: center;
   flex-direction: column;
   padding-left: 0;
+  margin-top: 40px;
 }
 .schedule-point {
   display: flex;
@@ -531,6 +532,7 @@ label {
 }
 .SuccessImage {
   width: 450px;
+  border-radius: 10px;
 }
 .button-success {
   padding: 8px 16px;
