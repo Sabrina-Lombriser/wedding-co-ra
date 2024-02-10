@@ -581,6 +581,9 @@ label {
     padding: 0px;
     width: 100%;
   }
+  .wunsch-container {
+    max-width: 250px;
+  }
 
   .icons {
     margin: auto;
